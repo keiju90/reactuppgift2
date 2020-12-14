@@ -1,0 +1,41 @@
+.navbar {
+    /* background-color: #1b1c3d; */
+    background-color: #4f818d;
+    /* background-color: #c2dddc;; */
+    height: 40px;
+    padding-top:  15px;   
+} 
+
+/* navigation links */
+a {
+    display: inline;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #c2d7fc;
+}
+
+/* navlink active color */
+.my-class {
+    color: #f5b74d;
+}
+
+input {
+    /* background-color: #5b5e84; */
+    /* background-color: #c2dddc; */
+    background-color: #d8dfe6;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    /* color: white; */
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    }
+
+ul {
+    padding-left: 0;
+    }

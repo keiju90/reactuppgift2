@@ -1,0 +1,20 @@
+.card {
+    /* font-family: 'Scope One', serif; */
+    display: flex; 
+    flex-direction: column;
+  /* justify-content: center; */
+    font-style: normal;
+    font-weight: 200;
+    font-size: 80%;
+    text-align: center;
+    padding: 1rem;
+    width: 300px;
+    height: 300px;
+    /* background-color: #1a1b3c; */
+    background-color: rgba(46, 43, 43, 0.557);
+    border-radius: 1px;
+    box-shadow: 2px 7px 22px -4px rgba(1, 1, 19, 0.75);
+    margin: 15px;
+    overflow: scroll;
+
+}

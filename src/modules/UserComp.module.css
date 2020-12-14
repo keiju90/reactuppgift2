@@ -1,0 +1,65 @@
+/* box that contains userinfo i user */
+.card {
+    width: 332px;
+    height: 332px;
+    background-color: rgba(46, 43, 43, 0.557);
+    display: flex; 
+    border-radius: 1px;
+    box-shadow: 2px 7px 22px -4px rgba(1, 1, 19, 0.75);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+.container{
+    width: 332px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.name{
+    color: #ebb760;
+}
+/* img {
+    box-shadow: 2px 7px 22px -4px rgba(1, 1, 19, 0.75);
+} */
+
+.dogImgBottom {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 14px solid #fff;
+    border-bottom: 45px solid #fff;
+    box-shadow: 2px 7px 22px -4px rgba(1, 1, 19, 0.75);
+    transform: rotate(4deg);
+}
+
+.dogImgTop {
+    border: 14px solid #fff;
+  border-bottom: 45px solid #fff;
+    position: absolute;
+      top: 34%;
+      left: 25%;
+    /* border: solid white 14px; */
+    box-shadow: 2px 7px 22px -4px rgba(1, 1, 19, 0.75);
+    transform: rotate(-5deg);
+    z-index: 1;
+}
+
+.noUserSelectedText {
+    text-align: center 
+}
+
+.dogtxt {
+    position: absolute;
+      top: 72%;
+      left: 29%;
+      transform: rotate(-5deg);
+    z-index: 1;
+    font-family: 'Reenie Beanie', cursive;
+    color: #002056;
+    font-size: 230%;
+
+}
