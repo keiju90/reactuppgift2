@@ -1,3 +1,5 @@
+<img width="1301" alt="ReactUppgift1" src="https://user-images.githubusercontent.com/54171324/108594128-5dafbc80-7378-11eb-98b1-7386813cc6be.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
